@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mahoney's Resume</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+		<h1><strong>Mark</strong> Mahoney <small>PH.D.</small></h1>
+		<hr>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 text-center"> 10917 Huron Drive Spring Grove, IL 60081 </div>
+			<div class="col-sm-4 text-center"> cell: (847)912-2642 </div>
+			<div class="col-sm-4 text-center"> email: mmahoney@carthage.edu </div>
+		</div>
+	</div>
+	<br>
+	<h4><strong>Professional Experience in Higher Education</strong></h4>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>2006-Present </strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong>Chair of the Computer Science Department and Associate Professor of Computer Science</strong></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">led the growth of the department from an average of about 30 computer science majors to our current level of about 90 majors. </div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>2002-2006 </strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong> Assistant Professor of Computer Science at Carthage College </strong></div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>2000-2002 </strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong>Adjunct Professor of Computer Science Department at Roosevelt University</strong></div>
+		</div>
+	</div>
+	
+	<br><br>
+	<h4><strong>Other Work Experience</strong></h4>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>2006-Present </strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong> Senior Software Engineer, Personal Communications Sector, Motorola </strong></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left"> I was part of a large team that worked on multimedia application software for 3G handsets. </div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>1999-2001</strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong>Software Engineer, Commercial, Government, Industrial Solutions Sector, Motorola</strong></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">I was part of a small team that worked on wireless two-way radio accessory products using Bluetooth.</div>
+		</div>
+	</div>
+	
+	<br><br>
+	<h4><strong>Education</strong></h4>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>2008</strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong> Illinois Institute of Technology, Chicago, IL. Ph.D., Computer Science</strong></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">Dissertation: â€œHandling Reactive Crosscutting Concerns with Aspect Oriented Modeling, State Machines, and Scenariosâ€</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">Advisor: Dr. Tzilla Elrad</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>2002</strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong>Illinois Institute of Technology, Chicago, IL. M.S., Computer Science</strong></div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>1999</strong></div>
+			<div class="col-xs-9 col-sm-10 col-md-9 col-lg-4 text-center"><strong>Roosevelt University, Chicago, IL. B.A., Computer Science</strong></div>
+		</div>
+	</div>
+	
+	<br><br>
+	<h4><strong>Research</strong></h4>
+		
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-center"><strong>Peer Reviewed Publications</strong></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October 2014</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center"> Mark Mahoney, â€œVersion Control Optimized for Teaching and Learning (Video)â€ The Future Programming Workshop associated with SPLASH 2014 Portland, OR. </div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October, 2012</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, â€œThe Storyteller Version Control System - Tackling Version Control, Code Comments, and Team Learningâ€ The SPLASH Demonstration Track SPLASH 2012 Tucson, AZ October</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>August, 2011</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Cassandra Kawell, Isaac Rothenbaum, â€œA Tool to Create Stories About Software Evolutionâ€ The 21st Annual Wisconsin Space Conference LaCrosse, WI.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>August, 2011</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, â€œTelling Stories about Software Evolutionâ€ Emerging Results Workshop, Agile 2011 Salt Lake City, UT. </div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>February, 2010</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad. â€œA Pattern Story for Combining Crosscutting Concern State Machinesâ€ Transactions on Pattern Languages of Programming Volume I, pp.192-206.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October, 2009</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney â€œSoftware Evolution and the Moving Picture Metaphorâ€ Onward! held in conjunction with OOPSLA 2009 Orlando, FL.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October, 2008</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad. â€œA Pattern for Monitoring Scenarios to Handle State Based Crosscutting Concernsâ€ Pattern Languages of Programs Conference held in conjunction with OOPSLA 2008 Nashville, TN.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>July, 2008</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad. â€œUsing Scenario Monitoring to Address State Based Crosscutting Concernsâ€, Proceedings of the Twentieth International Conference on Software Engineering and Knowledge Engineering (SEKE '08) San Francisco, CA.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>September, 2007</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad. â€œA Pattern Story for Aspect-Oriented State Machinesâ€, Pattern Languages of Programs Monticello IL.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>March, 2007</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad. â€œA Pattern Based Approach to Aspect-Orientation for State Based Systemsâ€, Workshop on Best Practices in Applying Aspect-Oriented Software Development (BPAOSD ' 07) at the Sixth International Conference on Aspect-Oriented Software Development (AOSD 2007) Vancouver, BC.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>May, 2007</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad. â€œGenerating Code from Scenario and State Based Models to Address Crosscutting Concernsâ€, 6th International Workshop on Scenarios and State Machines Proceedings of the 29th International Conference on Software Engineering + Workshops, Minneapolis, MN.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October, 2005</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad, â€œDistributing Statecharts to Handle Pervasive Crosscutting Concernsâ€, Building Software for Pervasive Computing Workshop at OOPSLA '05 San Diego, CA.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October, 2005</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad, â€œWeaving Crosscutting Concerns into Live Sequence Charts Using the Play Engineâ€, 7th International Workshop on Aspect-Oriented Modeling held in conjunction with the 8th International Conference on Model Driven Engineering Languages and Systems (MoDELS'05) Montego Bay, Jamaica</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>March, 2005</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Tzilla Elrad, â€œModeling Platform Specific Attributes of a System as Crosscutting Concerns using Aspect-Oriented Statecharts and Virtual Finite State Machinesâ€, the 6th International Workshop on Aspect-Oriented Modeling as part of AOSDâ€™05 Chicago, IL.</div>
+		</div>
+		
+		<br>
+		<div class="row">
+			<div class="col-xs-3 col-sm-2 col-md-2 text-left"><strong>October, 2004</strong></div>
+			<div class="col-xs-9 col-sm-5 col-md-4 text-center">Mark Mahoney, Atef Bader, Tzilla Elrad, Omar Aldawud, â€œUsing Aspects to Abstract and Modularize Statechartsâ€, The 5th Aspect-Oriented Modeling Workshop in Conjunction with UML 2004 Lisbon, Portugal October</div>
+		</div>
+
+		
+  
+	
+
+
+</body>
+
+</html>
