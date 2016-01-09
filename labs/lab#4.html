@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title> 
+		lab #4
+	</title>
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  
+  </head>
+
+<body>
+	<h1>Lab #4 </h1>
+	
+
+	
+		<script type="text/javascript">
+			var testString = "dog dog dog cat cat cow woof";
+			var allWords = numOfWords(testString);
+			var distWords = numOfDistWords(testString);
+			console.log("the number of words is " + allWords );
+			console.log("the number of distinct words is " + distWords);
+			
+			function numOfWords(inString) {
+				var words = inString.split(" ");
+				return words.length;
+			}
+			
+			function numOfDistWords(inString){
+				var words = inString.split(" ");
+				var numDisWords = 0;
+				
+				for(var i = 0; i < words.length; i++){
+				
+					var counter = 0;
+					
+					for(var j = i; j < words.length; j++) {
+						
+						if(words[i] === words[j]) {
+							counter++;
+						}
+					}
+					if(counter === 1){
+						numDisWords++;
+					}
+				}
+				return numDisWords;
+			}
+			
+		</script>
+	
+
+</body>
+</html>
+
+	

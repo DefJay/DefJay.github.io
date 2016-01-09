@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title> 
+		lab #3 
+	</title>
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  
+  </head>
+
+<body>
+	<h1>Lab #3 test of primes</h1>
+	<script type="text/javascript">
+		console.log("lab #3");
+		
+		var testNum = 11;
+		if(isPrime(testNum)){
+			console.log( testNum + " is a prime");
+		}
+		else{
+			console.log( testNum + " is not a prime")
+		}
+		
+		function isPrime(num) {
+			var retVal = true;
+			var sqrtNum = Math.sqrt(num);
+			
+			//i is the number to divide the test number
+			for(var i = 2; i <= sqrtNum; i++) {
+				if(num % i === 0){
+					retVal = false;
+					break;
+				}
+			}
+			return retVal;
+		}
+	</script>
+
+</body>
+
+</html>
