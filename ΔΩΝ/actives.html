@@ -13,13 +13,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 		<title>ΔΩΝ</title>
 	
-		<link rel="stylesheet" type="text/css" href="C:/Users/educ/Desktop/ΔΩΝ/stylesSheet.css">
+		<link rel="stylesheet" type="text/css" href="stylesSheet.css">
 
 	</head>
 
 	<body>
 		<div>
-			<h1>ΔΩΝ <small>ACTIVES</small><img src="C:/Users/educ/Desktop/ΔΩΝ/images/don_crest.jpg" align="right" height="66" width="66" hspace="20"> </h1>
+			<h1>ΔΩΝ <small>ACTIVES</small><img src="images/don_crest.jpg" align="right" height="66" width="66" hspace="20"> </h1>
 
 			
 		</div>
@@ -27,17 +27,16 @@
 		<div>
 			<div class="col-xs-4 col-sm-3 col-md-3 col-lg-2" id="navSideBar">
 				<ul class="nav nav-inverse">
-					<li class="active"><a href="C:/Users/educ/Desktop/ΔΩΝ/index.html"><h3><span class="glyphicon glyphicon-home"></span> Home</h3></a></li>
-					<li><a href="C:/Users/educ/Desktop/ΔΩΝ/history.html"><h3><span class="glyphicon glyphicon-book"></span> History</h3></a></li>
-					<li><a href="C:/Users/educ/Desktop/ΔΩΝ/actives.html"><h3><span class="glyphicon glyphicon-sunglasses"></span> Actives</h3></a></li>
-					<li><a href="C:/Users/educ/Desktop/ΔΩΝ/pledges.html"><h3><span class="	glyphicon glyphicon-user"></span> Pledges</h3></a></li>
-					<li><a href="C:/Users/educ/Desktop/ΔΩΝ/alumni.html"><h3><span class="glyphicon glyphicon-education"></span> Alumni</h3></a></li>
-					<li><a href="C:/Users/educ/Desktop/ΔΩΝ/events.html"><h3><span class="glyphicon glyphicon-calendar"></span> Events</h3></a></li>
+					<li class="active"><a href="index.html"><h3><span class="glyphicon glyphicon-home"></span> Home</h3></a></li>
+					<li><a href="history.html"><h3><span class="glyphicon glyphicon-book"></span> History</h3></a></li>
+					<li><a href="actives.html"><h3><span class="glyphicon glyphicon-sunglasses"></span> Actives</h3></a></li>
+					<li><a href="pledges.html"><h3><span class="	glyphicon glyphicon-user"></span> Pledges</h3></a></li>
+					<li><a href="alumni.html"><h3><span class="glyphicon glyphicon-education"></span> Alumni</h3></a></li>
+					<li><a href="events.html"><h3><span class="glyphicon glyphicon-calendar"></span> Events</h3></a></li>
 					<li><a href="#"><h3><span class="glyphicon glyphicon-comment"></span> Chat</h3></a></li>
 				</ul>
 			</div>
-			<div class="container">
-				<h2>Delta Omega News</h2>
+			<div class="container" id="members">
 			</div>
 		</div>
 
@@ -56,10 +55,96 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+		<!-- firebase library -->
+		<script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+
 		<script>
 		
 			$(document).ready(function() {
 				console.log("DOM loaded");
+
+				//get the pledges firebase url
+				var firebase = new Firebase("https://donactives.firebaseio.com/");
+
+				firebase.once("value", function(snapshot){
+					var div = $("#members");
+
+					snapshot.forEach(function(childSnapshot){
+						//grab the active
+						var member = childSnapshot.val();
+
+						var memImage = $('<img src="' + member.image + '">');
+
+						memImage.attr("id", "profilePic");
+
+						div.append(memImage);
+
+
+
+						//create a new paragraph for the name
+						var memP = $("<p>" + member.name + "</p>");
+
+						memP.attr("id", "name");
+
+						div.append(memP);
+
+						//create a new paragraph for postition
+						var memP = $("<p>" + "Position: " + member.position + "</p>");
+
+						memP.attr("id", "year");
+
+						div.append(memP);
+
+
+						//create a new paragraph for the joined
+						var memJ = $("<p>" + "Joined: " + member.joined + "</p>");
+
+						memJ.attr("id", "clubs");
+
+						div.append(memJ);
+
+
+						//create a new paragraph for the year
+						memY = $("<p>" + "Year: " + member.year + "</p>");
+
+						memY.attr("id", "clubs");
+
+						div.append(memY);
+
+
+
+						//create a new paragraph for majors
+						memMajor = $("<p>" + "Major: " + member.major + "</p>");
+
+						memMajor.attr("id", "clubs");
+
+						div.append(memMajor);
+
+
+						//create a new paragraph for minors
+						memMinor = $("<p>" + "Minor: " + member.minor + "</p>");
+
+						memMinor.attr("id", "clubs");
+
+						div.append(memMinor);
+
+
+						//create a new paragraph for clubs
+						memClubs = $("<p>" + "Clubs/Groups: " + member.clubs + "</p>");
+
+						memClubs.attr("id", "clubs");
+
+						div.append(memClubs);
+
+						//sets up a horizontal line
+						horLine = $("<hr><br>");
+
+
+						div.append(horLine);
+
+					});
+				});
+
 			});
 
 		</script>
