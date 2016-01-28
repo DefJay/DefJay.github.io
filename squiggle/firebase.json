@@ -1,9 +1,0 @@
-{
-  "firebase": "squigglehost",
-  "public": "public",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
